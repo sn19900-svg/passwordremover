@@ -24,7 +24,7 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --onefile --windowed --name PDF-Password-Recovery pdf_password_recovery.py
+          python -m PyInstaller --onefile --windowed --name PDF-Password-Recovery pdf_password_recovery.py
 
       - name: Upload EXE artifact
         uses: actions/upload-artifact@v4
