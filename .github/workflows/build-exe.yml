@@ -31,3 +31,4 @@ jobs:
         with:
           name: PDF-Password-Recovery-exe
           path: dist/PDF-Password-Recovery.exe
+          compression-level: 0
